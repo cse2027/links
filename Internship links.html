@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Internship links</title>
+<style>
+:root{
+  --bg:#f5f7fb;--fg:#1b2333;--muted:#5b6579;--card:#ffffff;--line:#d9dfec;--accent:#2f5bea;--accent-fg:#ffffff;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121722;--fg:#e8ecf5;--muted:#9aa5bb;--card:#1b2231;--line:#2d374c;--accent:#7b9bff;--accent-fg:#0d1220}}
+:root[data-theme="dark"]{--bg:#121722;--fg:#e8ecf5;--muted:#9aa5bb;--card:#1b2231;--line:#2d374c;--accent:#7b9bff;--accent-fg:#0d1220}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;line-height:1.5}
+main{max-width:720px;margin:0 auto;padding:40px 20px 56px}
+h1{font-size:2rem;margin:0 0 6px}
+.lead{color:var(--muted);margin:0 0 32px}
+h2{font-size:1.15rem;margin:28px 0 12px}
+.item{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin-bottom:10px}
+.item p{margin:2px 0 0;color:var(--muted);font-size:.92rem}
+.item strong{display:block}
+a.btn{flex:none;background:var(--accent);color:var(--accent-fg);text-decoration:none;font-weight:600;padding:10px 16px;border-radius:8px}
+a.btn:hover{filter:brightness(1.08)}
+a.btn:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+html{-webkit-text-size-adjust:100%}
+body{overflow-wrap:anywhere}
+.lead{font-size:clamp(1rem,2.6vw + .6rem,1.2rem)}
+a.btn{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+@media (max-width:520px){
+  main{padding:24px 16px 40px}
+  h2{margin:24px 0 10px}
+  .item{flex-direction:column;align-items:stretch;padding:14px}
+  a.btn{width:100%;font-size:1rem}
+}
+</style>
+</head>
+<body>
+<main>
+
+  <h2>Internship</h2>
+  <div class="item">
+    <div><strong>Certificate upload</strong><p>Upload your certificate to the shared Google Drive folder.</p></div>
+    <a class="btn" href="https://drive.google.com/drive/folders/1CKapKSbWlYjVmFujGbSL57tLRWsB9bE5?usp=sharing" target="_blank" rel="noopener">Open folder</a>
+  </div>
+  <div class="item">
+    <div><strong>Internship form</strong><p>Fill in the internship details form.</p></div>
+    <a class="btn" href="https://forms.gle/8oQ6qh9u4dkLUxCa7" target="_blank" rel="noopener">Fill form</a>
+  </div>
+
+  <h2>GitHub</h2>
+  <div class="item">
+    <div><strong>GitHub details form</strong><p>Submit your GitHub related data.</p></div>
+    <a class="btn" href="https://forms.gle/dJP7un6A2JpgyNn47" target="_blank" rel="noopener">Fill form</a>
+  </div>
+
+  <h2>L4G</h2>
+  <div class="item">
+    <div><strong>L4G data and registration</strong><p>Register and submit your L4G details.</p></div>
+    <a class="btn" href="https://l4g.cse2027.workers.dev/" target="_blank" rel="noopener">Open site</a>
+  </div>
+</main>
+</body>
+</html>
